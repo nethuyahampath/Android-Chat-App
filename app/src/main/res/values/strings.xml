@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">FactChat</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="welcome_welcome">Welcome</string>
+    <string name="welcome_fact_chat_app">FactChat App</string>
+    <string name="welcome_learn_share_chat">Learn . Share . Chat</string>
+    <string name="welcome_login_btn">Login</string>
+    <string name="welcome_sign_up_btn">Sign Up</string>
+
+    <string name="login_e_mail_address">E-mail Address</string>
+    <string name="login_password">Password</string>
+
+    <string name="signup_confirm_your_password">Confirm Your Password</string>
+    <string name="signup_enter_your_password">Enter Your Password</string>
+    <string name="signup_enter_your_e_mail_address">Enter Your E-mail Address</string>
+    <string name="signup_enter_your_full_name">Enter Your Full Name</string>
+
+    <string name="side_menu_home">Home</string>
+    <string name="side_menu_all_users">All Users</string>
+    <string name="side_menu_setting">Setting</string>
+    <string name="side_menu_log_out">Log Out</string>
+    <string name="side_menu_user_full_name">Full Name</string>
+    <string name="side_menu_user_e_mail_address">E-mail Address</string>
+
+    <string name="sigunp_password_not_match">Passwords Didn\'t Match</string>
+    <string name="sigup_error">Error in Signup Process</string>
+    <string name="login_error">Error in Login Process... Please Check Your Credentials</string>
+    <string name="signup_empty_fields">Please Enter All Fields</string>
+    <string name="signup_hint_name_gmail_com">hint : name@gmail.com</string>
+    <string name="signup_hint_password_must_contains_8_characters">hint : password must contains 8 characters</string>
+    <string name="login_error_empty">Please Enter Your Credentials</string>
+    <string name="setting_full_name">Full Name</string>
+    <string name="setting_hi_there_i_am_using_factchat">Hi there ! I am using FactChat</string>
+    <string name="setting_change_image_btn">CHANGE IMAGE</string>
+    <string name="setting_change_password_btn">CHANGE PASSWORD</string>
+    <string name="setting_change_status_btn">CHANGE STATUS</string>
+    <string name="status_hint_account_status">Account Status</string>
+    <string name="status_save_changes_btn">SAVE CHANGES</string>
+
+
+    <string name="need_new_account">Need New Account</string>
+    <string name="display_name">Display Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_out">Log Out</string>
+    <string name="already_have_an_account">Already Have An Account</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="post_desc_hint">Add Description</string>
+    <string name="pasindu_type_a_message">Type a message</string>
+    <string name="pasindu_desciption">Desciption</string>
+    <string name="pasindu_post_title">Post Title</string>
+    <string name="pasindu_post_description">Post Description</string>
+    <string name="pasindu_submit_post">SUBMIT POST</string>
+    <string name="pasindu_to_feed">To Feed</string>
+    <string name="pasindu_title">Title</string>
+    <string name="pasindu_remove_post">Remove Post</string>
+    <string name="pasindu_update_post">Update Post</string>
+    <string name="pasindu_username">Username</string>
+    <string name="pasindu_date">Date</string>
+    <string name="pasindu_time">Time</string>
+    <string name="pasindu_post_title_2">Post Title</string>
+    <string name="pasindu_post_description_2">Post Description</string>
+
+</resources>

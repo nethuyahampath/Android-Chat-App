@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:isScrollContainer="true"
+    android:background="@drawable/gradient_welcome"
+    tools:context="com.example.ganesh.appchat.SignupActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/signup_tv_create_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Your Account"
+            android:textSize="20sp"
+            android:textColor="@color/color_theme_light_lime_green"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/signup_et_name"
+            android:layout_below="@+id/signup_tv_create_account"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:shadowColor="@color/colorBlack"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/ic_action_name"
+            android:hint="@string/signup_enter_your_full_name"
+            android:textSize="18sp"
+            android:background="@drawable/edit_text_round"
+            android:textColorHint="@color/colorGrayHint"
+            android:textColor="@color/color_theme_light_lime_green"/>
+
+        <EditText
+            android:id="@+id/signup_et_email"
+            android:layout_below="@id/signup_et_name"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:shadowColor="@color/colorBlack"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/ic_action_email"
+            android:textStyle="bold"
+            android:hint="@string/signup_enter_your_e_mail_address"
+            android:inputType="textEmailAddress"
+            android:textSize="18sp"
+            android:background="@drawable/edit_text_round"
+            android:textColorHint="@color/colorGrayHint"
+            android:textColor="@color/color_theme_light_lime_green"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signup_hint_name_gmail_com"
+            android:layout_below="@id/signup_et_email"
+            android:layout_alignStart="@id/signup_et_email"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorGrayHint"
+            android:id="@+id/signup_tv_email_hint"/>
+
+        <EditText
+            android:id="@+id/signup_et_password"
+            android:layout_below="@id/signup_et_email"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:shadowColor="@color/colorBlack"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:drawableStart="@drawable/ic_action_password"
+            android:textStyle="bold"
+            android:hint="@string/signup_enter_your_password"
+            android:inputType="textPassword"
+            android:textSize="18sp"
+            android:background="@drawable/edit_text_round"
+            android:textColorHint="@color/colorGrayHint"
+            android:textColor="@color/color_theme_light_lime_green"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signup_hint_password_must_contains_8_characters"
+            android:layout_below="@id/signup_et_password"
+            android:layout_alignStart="@id/signup_et_email"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorGrayHint"
+            android:id="@+id/signup_tv_password_hint"/>
+
+
+        <EditText
+            android:id="@+id/signup_et_confirm_password"
+            android:layout_below="@id/signup_et_password"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:shadowColor="@color/colorBlack"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:drawableStart="@drawable/ic_action_password"
+            android:textStyle="bold"
+            android:hint="@string/signup_confirm_your_password"
+            android:inputType="textPassword"
+            android:textSize="18sp"
+            android:background="@drawable/edit_text_round"
+            android:textColorHint="@color/colorGrayHint"
+            android:textColor="@color/color_theme_light_lime_green"/>
+
+        <TextView
+            android:id="@+id/signup_tv_password_not_match"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/colorRed"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_below="@+id/signup_et_confirm_password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"/>
+
+
+        <android.support.v7.widget.CardView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/signup_cv_signup_btn"
+            android:layout_width="260dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/signup_et_confirm_password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            app:cardBackgroundColor="@color/colorwhatsappBlue"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/welcome_sign_up_btn"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+
+</ScrollView>

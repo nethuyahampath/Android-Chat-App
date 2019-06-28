@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "691801733627",
+    "firebase_url": "https://appchat-5e008.firebaseio.com",
+    "project_id": "appchat-5e008",
+    "storage_bucket": "appchat-5e008.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691801733627:android:2f60b17e274cb7a6",
+        "android_client_info": {
+          "package_name": "com.example.ganesh.appchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691801733627-htcpem80evfq5u21gkknr5ku07b5n9bj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ganesh.appchat",
+            "certificate_hash": "b6ba7f9f8bb5ffd23c337e940fc452de3069b3d2"
+          }
+        },
+        {
+          "client_id": "691801733627-64tc7k5cg1vppaf6r782h9dcgmqirca5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbHmnF2PtbymfFzU5pqMTL_TW3XoTaxus"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691801733627-64tc7k5cg1vppaf6r782h9dcgmqirca5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

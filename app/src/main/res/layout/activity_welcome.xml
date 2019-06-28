@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_welcome"
+    tools:context="com.example.ganesh.appchat.WelcomeActivity">
+
+    <TextView
+        android:id="@+id/welcome_tv_welcome"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/welcome_welcome"
+        android:textSize="32sp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/welcome_iv_logopic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/launcher_icon2"
+        android:layout_below="@id/welcome_tv_welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/welcome_tv_fact_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/welcome_iv_logopic"
+        android:layout_marginTop="60dp"
+        android:text="@string/welcome_fact_chat_app"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/welcome_tv_hint"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="@string/welcome_learn_share_chat"
+        android:textColor="@color/color_theme_dark_lime_green"
+        android:textSize="16sp"
+        android:layout_below="@+id/welcome_tv_fact_chat"
+        android:layout_marginTop="10dp"/>
+
+    <android.support.v7.widget.CardView
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:id="@+id/welcome_cv_login_btn"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/welcome_tv_hint"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        app:cardBackgroundColor="@color/colorwhatsappLightYellow"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/welcome_login_btn"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:id="@+id/welcome_cv_signup_btn"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/welcome_cv_login_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="@color/colorwhatsappBlue"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/welcome_sign_up_btn"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

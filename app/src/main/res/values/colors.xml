@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    -->
+
+    <color name="colorPrimary">#1F00FE</color>
+    <color name="colorPrimaryDark">#13028A</color>
+    <color name="colorAccent">#E50000</color>
+
+
+
+    <color name="colorwhatsappBlue">#34b7f1</color>
+    <color name="colorwhatsappLightYellow">#dcf8c6</color>
+    <color name="color_theme_dull_dark_green">#73896a</color>
+    <color name="color_theme_dull_light_green">#00acc0</color>
+    <color name="color_theme_dull_green">#01c7d2</color>
+    <color name="color_theme_light_blue">#00c9e3</color>
+    <color name="color_theme_dark_blue">#00dfec</color>
+    <color name="color_theme_dark_lime_green">#a9ec00</color>
+    <color name="color_theme_light_lime_green">#c3ff01</color>
+    <color name="color_theme_light_gray">#eeeeee</color>
+    <color name="color_theme_dark_gray">#e3e7ea</color>
+
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGrayHint">#cfc1c1</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorDarkGreeen">#139e70</color>
+    <color name="colorLightBlack">#11000000</color>
+    <color name="colorRed">#cf000a</color>
+
+
+    <color name="colorYellow">#9BD274</color>
+    <color name="colorLigthGreen">#9CFC56</color>
+    <color name="colorDarkGray">#424949</color>
+
+
+    <color name="colorBlue">#6970ed</color>
+    <color name="colorDarkBlue">#050d9e</color>
+    <color name="colorDarkBlack">#000000</color>
+    <color name="colorLightGray">#968e8e</color>
+
+    <color name="colorPrimary2">#FFC107</color>
+    <color name="colorPrimaryDark2">#FFA000</color>
+    <color name="backgroundcolor2">#fcfcfc</color>
+    <color name="lightgray2">#ededed</color>
+    <color name="deeppurple2">#7c4dff</color>
+    <color name="yellow2">#ffb300</color>
+    <color name="green2">#00bfa5</color>
+    <color name="colorAccent2">#FF4081</color>
+    <color name="darkblue2">#23283a</color>
+    <color name="testcolorblue2">#152b38</color>
+    <color name="pink2">#fe104d</color>
+
+    <color name="black_overlay2">#66000000</color>
+    <color name="darkWhite">#e9e9ff</color>
+
+</resources>

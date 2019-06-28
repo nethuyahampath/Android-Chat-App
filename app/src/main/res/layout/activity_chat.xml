@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.example.ganesh.appchat.ChatActivity">
+
+    <include layout="@layout/app_bar" android:id="@+id/chat_app_bar"/>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/message_swipe_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/chat_app_bar">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/chat_messages_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/linearLayout"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/chat_app_bar">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:background="@color/colorWhite"
+        android:id="@+id/linearLayout">
+
+        <ImageButton
+            android:id="@+id/chat_bottom_iv_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:alpha="0.5"
+            android:background="@color/colorWhite"
+            android:padding="10dp"
+            android:src="@drawable/ic_action_add"/>
+
+        <EditText
+            android:id="@+id/chat_bottom_tv_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:background="@color/colorWhite"
+            android:paddingBottom="12dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="12dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/pasindu_type_a_message"/>
+
+
+        <ImageView
+            android:id="@+id/chat_bottom_iv_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorWhite"
+            android:padding="10dp"
+            android:src="@drawable/ic_menu_send" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all_users"
+            android:icon="@drawable/ic_twotone_supervisor_account_24px"
+            android:title="All users" />
+        <item
+            android:id="@+id/nav_feed"
+            android:icon="@drawable/twotone_near_me_black_48dp"
+            android:title="Feed" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_twotone_settings_24px"
+            android:title="Setting" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_twotone_exit_to_app_24px"
+            android:title="Logout" />
+    </group>
+
+
+
+</menu>
